@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JU_CSE_SHORT_CIRCUIT</string>
+    <string name="s1">Officials Info</string>
+    <string name="s2">Gallery</string>
+    <string name="s3">Class Routine</string>
+    <string name="s4">Profile Activity</string>
+    <string name="s5">Share</string>
+    <string name="s6">Feedback!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="teacher1">Dr. Jugal Krisno Das \n Professor \n Filed Of Intertest : Logic Circuit,Machine Learning,Deep Learning </string>
+    <string name="teacher2">Dr. Imadul Islam\n Professor \n Filed Of Intertest : Logic Circuit,Machine Learning,Deep Learning </string>
+    <string name="teacher3">Dr. Zahidur Rahman\n Professor \n Filed Of Intertest : Logic Circuit,Machine Learning,Deep Learning </string>
+    <string name="teacher4">Dr. Liton Jude Rozario \n Professor \n Filed Of Intertest : Logic Circuit,Machine Learning,Deep Learning </string>
+
+    <string name="phone1"> 017373299184 </string>
+    <string name="phone2"> 01785888763 </string>
+    <string name="phone3"> 01852621051 </string>
+    <string name="phone4"> 01737329184 </string>
+    <string name="phone5"> 123456789 </string>
+    <string name="email1"> nayem.stu20182@juniv.edu </string>
+    <string name="email2"> jucse28.379@gmail.com </string>
+    <string name="email3"> jucse28.385@gmail.com </string>
+    <string name="email4"> jucse28.373@gmail.com </string>
+    <string name="email5"> jucse28.379@gmail.com </string>
+</resources>

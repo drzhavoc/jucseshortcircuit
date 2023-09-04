@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151255224015",
+    "project_id": "havocpain",
+    "storage_bucket": "havocpain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151255224015:android:946c7a9945ad8f099071ba",
+        "android_client_info": {
+          "package_name": "com.example.ju_cse_short_circuit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151255224015-v9e6v5or7vc9d6b4d6r8o52ei5kla4ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkNRUc-aggvU93_-NXdGyTOnQRaP3gk8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151255224015-v9e6v5or7vc9d6b4d6r8o52ei5kla4ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
