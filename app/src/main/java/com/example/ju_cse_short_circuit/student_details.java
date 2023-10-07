@@ -9,6 +9,7 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.google.firebase.firestore.DocumentChange;
@@ -37,6 +38,7 @@ public class student_details extends AppCompatActivity {
          progressDialog.setMessage("Fetching Data.....");
          progressDialog.show();
         recyclerView = findViewById(R.id.recycleviewid);
+        
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -61,8 +63,8 @@ public class student_details extends AppCompatActivity {
 
                         if(error!=null)
                         {
-                                   if(progressDialog.isShowing())
-                                   progressDialog.dismiss();
+                            if(progressDialog.isShowing())
+                                        progressDialog.dismiss();
                             Log.e("Firebase error",error.getMessage());
                             return;
                         }

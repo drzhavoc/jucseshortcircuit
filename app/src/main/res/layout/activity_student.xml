@@ -66,4 +66,17 @@
         android:layout_height="wrap_content"
         android:text="Sign Out" />
 
+
+    <Button
+        android:id="@+id/fileid"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:text="File management" />
+
+    <Button
+        android:id="@+id/noticeid"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:text="Notice management" />
+
 </LinearLayout>

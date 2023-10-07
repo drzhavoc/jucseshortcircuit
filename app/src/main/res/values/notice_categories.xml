@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/arrays.xml -->
+<resources>
+    <array name="notice_categories">
+        <item>Class</item>
+        <item>Exam</item>
+        <item>Sports</item>
+        <item>Others</item>
+    </array>
+</resources>

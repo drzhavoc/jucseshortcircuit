@@ -21,6 +21,9 @@ import java.util.ArrayList;
 public class student_activity extends AppCompatActivity implements View.OnClickListener{
     private Button logout;
     private Button details;
+
+    private Button filemanegement;
+    private Button noticemanegement;
     private FirebaseAuth firebaseAuth;
     private boolean canGoBack = false;
 
@@ -31,8 +34,13 @@ public class student_activity extends AppCompatActivity implements View.OnClickL
         firebaseAuth = FirebaseAuth.getInstance();
         logout= (Button) findViewById(R.id.logoutid);
         details=(Button) findViewById(R.id.detailsid);
+        filemanegement=(Button) findViewById(R.id.fileid);
+        noticemanegement=(Button) findViewById(R.id.noticeid);
+        // Button selectImagesButton = findViewById(R.id.imageBT);
         logout.setOnClickListener(this);
         details.setOnClickListener(this);
+        filemanegement.setOnClickListener(this);
+        noticemanegement.setOnClickListener(this);
 
 
         FirebaseFirestore firestore = FirebaseFirestore.getInstance();
@@ -88,6 +96,20 @@ public class student_activity extends AppCompatActivity implements View.OnClickL
     public void onClick(View view) {
         if(view.getId()==R.id.logoutid)
           logOut();
+        else if(view.getId()==R.id.fileid)
+        {
+
+            Intent intent = new Intent(student_activity.this, filehandler.class);
+            startActivity(intent);
+
+        }
+        else if(view.getId()==R.id.noticeid)
+        {
+
+            Intent intent = new Intent(student_activity.this, NoticeActivity.class);
+            startActivity(intent);
+
+        }
         else
         {
             Intent intent = new Intent(student_activity.this, student_details.class);

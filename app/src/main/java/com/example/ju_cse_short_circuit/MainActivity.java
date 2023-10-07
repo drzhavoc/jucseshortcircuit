@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     else if(view.getId()==R.id.cv2)
     {
-            Intent intent= new Intent(MainActivity.this, gallery.class);
+            Intent intent= new Intent(MainActivity.this, gallery123.class);
             startActivity(intent);
 
 
